@@ -1452,6 +1452,7 @@ document.head.appendChild(script);
                   b = b.status;
                   if ("COMPLETED" === b || ("NOT_COMPLETED" === b && "" === c))
                     c = b;
+                    console.log(b); // printing the order details 
                 }
               );
               confirm(m.closeConfirm) &&
