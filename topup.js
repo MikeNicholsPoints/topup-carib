@@ -1,3 +1,7 @@
+//2021 edit for Caribbean 
+//call partner js function on success
+//close popup on ESC keypress 
+
 var script = document.createElement("script");
 script.src = "https://points-ebgt.s3.amazonaws.com/points/inline/index.js";
 
